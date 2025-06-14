@@ -59,6 +59,9 @@
     </style>
 </head>
 <body>
+    <?php 
+    include("navbar.html");
+    ?>
 
 <div class="container">
     <h1>Add a Blog Post/Article</h1>
@@ -83,5 +86,8 @@
   <button type="submit">Add Article</button>
     </form>
 </div>
+<?php 
+    include("footer.html");
+    ?>
 </body>
 </html>
