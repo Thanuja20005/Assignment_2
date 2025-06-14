@@ -88,9 +88,6 @@
     </form>
 </div>
 <?php 
-    include("home.html");
-    ?>
-<?php 
     include("footer.html");
     ?>
 </body>
