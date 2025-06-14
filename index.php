@@ -66,7 +66,7 @@
 <div class="container">
     <h1>Add a Blog Post/Article</h1>
 
-    <form method="POST">
+    <form action="home.html" method="POST">
         <label><B>Name Of the Article:</B><br>
             <input type="text" name="title" required>
         </label><br><br>
@@ -83,9 +83,13 @@
         <textarea name="content" rows="10" required></textarea>
     </label><br><br>
 
-  <button type="submit">Add Article</button>
+  <button onClick="window.location.assign('https://home.html')" type="submit">Add Article</button>
+ 
     </form>
 </div>
+<?php 
+    include("home.html");
+    ?>
 <?php 
     include("footer.html");
     ?>
